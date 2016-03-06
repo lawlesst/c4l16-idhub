@@ -23,14 +23,12 @@ WHERE
 {
     ?j wdt:P236 ?issn .
 }
-LIMIT 10
 """
 
 def dump_pickle(data, fname):
     with open(fname, 'wb') as outf:
         pickle.dump(data, outf)
     return True
-
 
 def index_journals():
     issn_key = {}
