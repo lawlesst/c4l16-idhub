@@ -1,3 +1,8 @@
+"""
+Match local CSV file to indexed Wikidata ISSNs
+saved as issn - wikidata pairs in data/wd_issn.pkl.
+"""
+
 import csv
 import pickle
 import sys

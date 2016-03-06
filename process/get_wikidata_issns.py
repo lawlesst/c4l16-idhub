@@ -1,5 +1,7 @@
 """
-Query Wikidata for resources with ISSNs
+- query Wikidata for resources with ISSNs
+- create an index of issn - wikidata id pairs
+- save as pickle file
 """
 import sys
 import pickle

@@ -1,5 +1,5 @@
 """
-Created RDF from matched CSV.
+Create RDF from matched CSV.
 """
 
 import sys
