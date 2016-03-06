@@ -4,7 +4,7 @@
     "journals": {
       "title": "Journal Hub",
       "type": "TurtleDatasource",
-      "description": "Local file",
+      "description": "Local file of journals matched to Wikidata.",
       "settings": { "file": "data/hub.ttl" }
       }
   },
