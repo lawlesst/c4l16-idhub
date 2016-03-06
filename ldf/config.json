@@ -19,7 +19,7 @@
     "owl":         "http://www.w3.org/2002/07/owl#",
     "schema":   "http://schema.org/",
     "dbpedia":     "http://dbpedia.org/resource/",
-    "wd": "http://wikidata.org/entity",
+    "wd": "http://wikidata.org/entity/",
     "bibo": "http://purl.org/ontology/bibo/",
     "local": "http://example.org/ontology/hub#"
   },
