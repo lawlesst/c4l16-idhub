@@ -1,0 +1,30 @@
+{
+  "title": "Linked Data Fragments server",
+  "datasources": {
+    "journals": {
+      "title": "Journal Hub",
+      "type": "TurtleDatasource",
+      "description": "Local file",
+      "settings": { "file": "data/hub.ttl" }
+      }
+  },
+  "prefixes": {
+    "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs":        "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd":         "http://www.w3.org/2001/XMLSchema#",
+    "dc":          "http://purl.org/dc/terms/",
+    "foaf":        "http://xmlns.com/foaf/0.1/",
+    "vivo":        "http://vivoweb.org/ontology/core#",
+    "dbpedia-owl": "http://dbpedia.org/ontology/",
+    "owl":         "http://www.w3.org/2002/07/owl#",
+    "schema":   "http://schema.org/",
+    "dbpedia":     "http://dbpedia.org/resource/",
+    "wd": "http://wikidata.org/entity",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "local": "http://example.org/ontology/hub#"
+  },
+  "logging": {
+    "enabled": false,
+    "file": "access.log"
+  }
+}

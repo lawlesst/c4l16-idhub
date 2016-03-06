@@ -1,0 +1,13 @@
+{
+  "name": "my-identity-hub",
+  "description": "publishing Linked Data",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.13.4"
+  },
+  "dependencies": {
+    "hdt": "^1.2.2",
+    "ldf-server": "^1.1.6"
+  }
+}

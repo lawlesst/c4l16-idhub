@@ -1,0 +1,723 @@
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix ns2: <http://example.org/ontology/hub#> .
+@prefix ns3: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/data/journals/00029S> a ns1:Journal ;
+    rdfs:label "Advances in Agronomy" ;
+    ns2:identifier "00029S" ;
+    ns1:issn "0065-2113" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2496124> .
+
+<http://example.org/data/journals/00424S> a ns1:Journal ;
+    rdfs:label "Frontiers of Hormone Research" ;
+    ns2:identifier "00424S" ;
+    ns1:issn "0301-3073" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15765442> .
+
+<http://example.org/data/journals/00973J> a ns1:Journal ;
+    rdfs:label "AGE" ;
+    ns2:identifier "00973J" ;
+    ns1:eissn "1574-4647" ;
+    ns1:issn "0161-9152" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q4691832> .
+
+<http://example.org/data/journals/01241J> a ns1:Journal ;
+    rdfs:label "CANCER CHEMOTHERAPY AND PHARMACOLOGY" ;
+    ns2:identifier "01241J" ;
+    ns1:eissn "1432-0843" ;
+    ns1:issn "0344-5704" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q326137> .
+
+<http://example.org/data/journals/01519J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF RHEOLOGY" ;
+    ns2:identifier "01519J" ;
+    ns1:issn "0148-6055" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6295875> .
+
+<http://example.org/data/journals/02045J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF DISPERSION SCIENCE AND TECHNOLOGY" ;
+    ns2:identifier "02045J" ;
+    ns1:eissn "1532-2351" ;
+    ns1:issn "0193-2691" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15760113> .
+
+<http://example.org/data/journals/03116J> a ns1:Journal ;
+    rdfs:label "THEORETICAL COMPUTER SCIENCE" ;
+    ns2:identifier "03116J" ;
+    ns1:eissn "1879-2294" ;
+    ns1:issn "0304-3975" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q7782354> .
+
+<http://example.org/data/journals/03232J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF VIROLOGICAL METHODS" ;
+    ns2:identifier "03232J" ;
+    ns1:eissn "1879-0984" ;
+    ns1:issn "0166-0934" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15749961> .
+
+<http://example.org/data/journals/03539J> a ns1:Journal ;
+    rdfs:label "AMERICAN JOURNAL OF DERMATOPATHOLOGY" ;
+    ns2:identifier "03539J" ;
+    ns1:eissn "1533-0311" ;
+    ns1:issn "0193-1091" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15754884> .
+
+<http://example.org/data/journals/03746J> a ns1:Journal ;
+    rdfs:label "AQUATIC TOXICOLOGY" ;
+    ns2:identifier "03746J" ;
+    ns1:eissn "1879-1514" ;
+    ns1:issn "0166-445X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q4782796> .
+
+<http://example.org/data/journals/03870J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF THE METEOROLOGICAL SOCIETY OF JAPAN" ;
+    ns2:identifier "03870J" ;
+    ns1:eissn "2186-9057" ;
+    ns1:issn "0026-1165" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15762340> .
+
+<http://example.org/data/journals/04059J> a ns1:Journal ;
+    rdfs:label "ACTA VETERINARIA-BEOGRAD" ;
+    ns2:identifier "04059J" ;
+    ns1:eissn "1820-7448" ;
+    ns1:issn "0567-8315" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15752002> .
+
+<http://example.org/data/journals/04480J> a ns1:Journal ;
+    rdfs:label "CELLULAR POLYMERS" ;
+    ns2:identifier "04480J" ;
+    ns1:eissn "1478-2421" ;
+    ns1:issn "0262-4893" .
+
+<http://example.org/data/journals/05827J> a ns1:Journal ;
+    rdfs:label "ATOMIC DATA AND NUCLEAR DATA TABLES" ;
+    ns2:identifier "05827J" ;
+    ns1:eissn "1090-2090" ;
+    ns1:issn "0092-640X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2920192> .
+
+<http://example.org/data/journals/05922J> a ns1:Journal ;
+    rdfs:label "STATISTICS & PROBABILITY LETTERS" ;
+    ns2:identifier "05922J" ;
+    ns1:eissn "1879-2103" ;
+    ns1:issn "0167-7152" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15760511> .
+
+<http://example.org/data/journals/05986J> a ns1:Journal ;
+    rdfs:label "APPLIED ANIMAL BEHAVIOUR SCIENCE" ;
+    ns2:identifier "05986J" ;
+    ns1:eissn "1872-9045" ;
+    ns1:issn "0168-1591" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2159220> .
+
+<http://example.org/data/journals/06098J> a ns1:Journal ;
+    rdfs:label "MIS QUARTERLY" ;
+    ns2:identifier "06098J" ;
+    ns1:issn "0276-7783" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1141940> .
+
+<http://example.org/data/journals/06299J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF THE AMERICAN PODIATRIC MEDICAL ASSOCIATION" ;
+    ns2:identifier "06299J" ;
+    ns1:eissn "1930-8264" ;
+    ns1:issn "8750-7315" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15750487> .
+
+<http://example.org/data/journals/06571J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF PHARMACEUTICAL AND BIOMEDICAL ANALYSIS" ;
+    ns2:identifier "06571J" ;
+    ns1:eissn "1873-264X" ;
+    ns1:issn "0731-7085" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15752537> .
+
+<http://example.org/data/journals/07035J> a ns1:Journal ;
+    rdfs:label "ADVANCED MATERIALS & PROCESSES" ;
+    ns2:identifier "07035J" ;
+    ns1:eissn "2161-9425" ;
+    ns1:issn "0882-7958" .
+
+<http://example.org/data/journals/07076J> a ns1:Journal ;
+    rdfs:label "SEMICONDUCTOR SCIENCE AND TECHNOLOGY" ;
+    ns2:identifier "07076J" ;
+    ns1:eissn "1361-6641" ;
+    ns1:issn "0268-1242" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15708713> .
+
+<http://example.org/data/journals/07363J> a ns1:Journal ;
+    rdfs:label "MOLECULAR MICROBIOLOGY" ;
+    ns2:identifier "07363J" ;
+    ns1:eissn "1365-2958" ;
+    ns1:issn "0950-382X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6895967> .
+
+<http://example.org/data/journals/07396J> a ns1:Journal ;
+    rdfs:label "MOLECULAR NEUROBIOLOGY" ;
+    ns2:identifier "07396J" ;
+    ns1:eissn "1559-1182" ;
+    ns1:issn "0893-7648" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15716645> .
+
+<http://example.org/data/journals/07537J> a ns1:Journal ;
+    rdfs:label "PARASITOLOGY RESEARCH" ;
+    ns2:identifier "07537J" ;
+    ns1:eissn "1432-1955" ;
+    ns1:issn "0932-0113" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15755242> .
+
+<http://example.org/data/journals/07635J> a ns1:Journal ;
+    rdfs:label "FLUID DYNAMICS RESEARCH" ;
+    ns2:identifier "07635J" ;
+    ns1:eissn "1873-7005" ;
+    ns1:issn "0169-5983" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15746435> .
+
+<http://example.org/data/journals/09264J> a ns1:Journal ;
+    rdfs:label "ANNALS OF ONCOLOGY" ;
+    ns2:identifier "09264J" ;
+    ns1:eissn "1569-8041" ;
+    ns1:issn "0923-7534" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q326122> .
+
+<http://example.org/data/journals/09279J> a ns1:Journal ;
+    rdfs:label "APPLIED ORGANOMETALLIC CHEMISTRY" ;
+    ns2:identifier "09279J" ;
+    ns1:eissn "1099-0739" ;
+    ns1:issn "0268-2605" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1767653> .
+
+<http://example.org/data/journals/09335J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF MATERIALS SCIENCE-MATERIALS IN ELECTRONICS" ;
+    ns2:identifier "09335J" ;
+    ns1:eissn "1573-482X" ;
+    ns1:issn "0957-4522" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6295494> .
+
+<http://example.org/data/journals/09523J> a ns1:Journal ;
+    rdfs:label "ANIMAL BIOTECHNOLOGY" ;
+    ns2:identifier "09523J" ;
+    ns1:eissn "1532-2378" ;
+    ns1:issn "1049-5398" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2233008> .
+
+<http://example.org/data/journals/09615J> a ns1:Journal ;
+    rdfs:label "MICROSCOPY RESEARCH AND TECHNIQUE" ;
+    ns2:identifier "09615J" ;
+    ns1:eissn "1097-0029" ;
+    ns1:issn "1059-910X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q59757> .
+
+<http://example.org/data/journals/09773J> a ns1:Journal ;
+    rdfs:label "ENVIRONMETRICS" ;
+    ns2:identifier "09773J" ;
+    ns1:eissn "1099-095X" ;
+    ns1:issn "1180-4009" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15758560> .
+
+<http://example.org/data/journals/09926J> a ns1:Journal ;
+    rdfs:label "ADVANCED COMPOSITE MATERIALS" ;
+    ns2:identifier "09926J" ;
+    ns1:eissn "1568-5519" ;
+    ns1:issn "0924-3046" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q4686156> .
+
+<http://example.org/data/journals/10110J> a ns1:Journal ;
+    rdfs:label "ABDOMINAL IMAGING" ;
+    ns2:identifier "10110J" ;
+    ns1:eissn "1432-0509" ;
+    ns1:issn "0942-8925" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15716670> .
+
+<http://example.org/data/journals/10166J> a ns1:Journal ;
+    rdfs:label "SEMINARS IN CANCER BIOLOGY" ;
+    ns2:identifier "10166J" ;
+    ns1:issn "1044-579X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1908668> .
+
+<http://example.org/data/journals/10495J> a ns1:Journal ;
+    rdfs:label "RAFFLES BULLETIN OF ZOOLOGY" ;
+    ns2:identifier "10495J" ;
+    ns1:issn "0217-2445" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q7759249> .
+
+<http://example.org/data/journals/10629J> a ns1:Journal ;
+    rdfs:label "FREE RADICAL RESEARCH" ;
+    ns2:identifier "10629J" ;
+    ns1:eissn "1029-2470" ;
+    ns1:issn "1071-5762" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q5500025> .
+
+<http://example.org/data/journals/10740J> a ns1:Journal ;
+    rdfs:label "INTERNATIONAL JOURNAL OF ANTIMICROBIAL AGENTS" ;
+    ns2:identifier "10740J" ;
+    ns1:eissn "1872-7913" ;
+    ns1:issn "0924-8579" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15724616> .
+
+<http://example.org/data/journals/10761J> a ns1:Journal ;
+    rdfs:label "LASER PHYSICS" ;
+    ns2:identifier "10761J" ;
+    ns1:eissn "1555-6611" ;
+    ns1:issn "1054-660X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2627169> .
+
+<http://example.org/data/journals/10914J> a ns1:Journal ;
+    rdfs:label "VETERINARSKI ARHIV" ;
+    ns2:identifier "10914J" ;
+    ns1:eissn "1331-8055" ;
+    ns1:issn "0372-5480" .
+
+<http://example.org/data/journals/11194J> a ns1:Journal ;
+    rdfs:label "INFLAMMATION RESEARCH" ;
+    ns2:identifier "11194J" ;
+    ns1:eissn "1420-908X" ;
+    ns1:issn "1023-3830" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1819367> .
+
+<http://example.org/data/journals/11339J> a ns1:Journal ;
+    rdfs:label "MOLECULAR MEDICINE" ;
+    ns2:identifier "11339J" ;
+    ns1:eissn "1528-3658" ;
+    ns1:issn "1076-1551" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6895961> .
+
+<http://example.org/data/journals/11483J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF INTELLIGENT & FUZZY SYSTEMS" ;
+    ns2:identifier "11483J" ;
+    ns1:eissn "1875-8967" ;
+    ns1:issn "1064-1246" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15761645> .
+
+<http://example.org/data/journals/12023J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF WOMENS HEALTH" ;
+    ns2:identifier "12023J" ;
+    ns1:eissn "1931-843X" ;
+    ns1:issn "1540-9996" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15753624> .
+
+<http://example.org/data/journals/12337J> a ns1:Journal ;
+    rdfs:label "PRAKTISCHE METALLOGRAPHIE-PRACTICAL METALLOGRAPHY" ;
+    ns2:identifier "12337J" ;
+    ns1:eissn "0032-678X" ;
+    ns1:issn "0032-678X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15760075> .
+
+<http://example.org/data/journals/12380J> a ns1:Journal ;
+    rdfs:label "ACTA PHYSICO-CHIMICA SINICA" ;
+    ns2:identifier "12380J" ;
+    ns1:issn "1000-6818" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15767318> .
+
+<http://example.org/data/journals/12473J> a ns1:Journal ;
+    rdfs:label "EUROPEAN JOURNAL OF OPHTHALMOLOGY" ;
+    ns2:identifier "12473J" ;
+    ns1:eissn "1724-6016" ;
+    ns1:issn "1120-6721" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15755023> .
+
+<http://example.org/data/journals/13214J> a ns1:Journal ;
+    rdfs:label "ACSMS HEALTH & FITNESS JOURNAL" ;
+    ns2:identifier "13214J" ;
+    ns1:eissn "1536-593X" ;
+    ns1:issn "1091-5397" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15750107> .
+
+<http://example.org/data/journals/13391J> a ns1:Journal ;
+    rdfs:label "DOKLADY PHYSICS" ;
+    ns2:identifier "13391J" ;
+    ns1:eissn "1562-6903" ;
+    ns1:issn "1028-3358" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15716613> .
+
+<http://example.org/data/journals/13518J> a ns1:Journal ;
+    rdfs:label "CMES-COMPUTER MODELING IN ENGINEERING & SCIENCES" ;
+    ns2:identifier "13518J" ;
+    ns1:eissn "1526-1506" ;
+    ns1:issn "1526-1492" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15754393> .
+
+<http://example.org/data/journals/13541J> a ns1:Journal ;
+    rdfs:label "SEMINARS IN REPRODUCTIVE MEDICINE" ;
+    ns2:identifier "13541J" ;
+    ns1:eissn "1526-4564" ;
+    ns1:issn "1526-8004" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15724536> .
+
+<http://example.org/data/journals/13696J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF DERMATOLOGY" ;
+    ns2:identifier "13696J" ;
+    ns1:eissn "1346-8138" ;
+    ns1:issn "0385-2407" .
+
+<http://example.org/data/journals/13857J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF FELINE MEDICINE AND SURGERY" ;
+    ns2:identifier "13857J" ;
+    ns1:eissn "1532-2750" ;
+    ns1:issn "1098-612X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6295205> .
+
+<http://example.org/data/journals/13935J> a ns1:Journal ;
+    rdfs:label "GEOCHEMICAL TRANSACTIONS" ;
+    ns2:identifier "13935J" ;
+    ns1:eissn "1467-4866" ;
+    ns1:issn "1467-4866" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15763187> .
+
+<http://example.org/data/journals/13977J> a ns1:Journal ;
+    rdfs:label "ORGANIC ELECTRONICS" ;
+    ns2:identifier "13977J" ;
+    ns1:eissn "1878-5530" ;
+    ns1:issn "1566-1199" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2087238> .
+
+<http://example.org/data/journals/14199J> a ns1:Journal ;
+    rdfs:label "IEEE TRANSACTIONS ON DEVICE AND MATERIALS RELIABILITY" ;
+    ns2:identifier "14199J" ;
+    ns1:eissn "1558-2574" ;
+    ns1:issn "1530-4388" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q5327634> .
+
+<http://example.org/data/journals/14918S> a ns1:Journal ;
+    rdfs:label "Annual Review of Pathology-Mechanisms of Disease" ;
+    ns2:identifier "14918S" ;
+    ns1:issn "1553-4006" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15263665> .
+
+<http://example.org/data/journals/29125J> a ns1:Journal ;
+    rdfs:label "CLINICAL RADIOLOGY" ;
+    ns2:identifier "29125J" ;
+    ns1:eissn "1365-229X" ;
+    ns1:issn "0009-9260" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15754925> .
+
+<http://example.org/data/journals/29920J> a ns1:Journal ;
+    rdfs:label "COMPOSITIO MATHEMATICA" ;
+    ns2:identifier "29920J" ;
+    ns1:eissn "1570-5846" ;
+    ns1:issn "0010-437X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q5156781> .
+
+<http://example.org/data/journals/34056J> a ns1:Journal ;
+    rdfs:label "ECONOMIC BOTANY" ;
+    ns2:identifier "34056J" ;
+    ns1:eissn "1874-9364" ;
+    ns1:issn "0013-0001" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q514162> .
+
+<http://example.org/data/journals/41932J> a ns1:Journal ;
+    rdfs:label "IBIS" ;
+    ns2:identifier "41932J" ;
+    ns1:eissn "1474-919X" ;
+    ns1:issn "0019-1019" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1666662> .
+
+<http://example.org/data/journals/47113J> a ns1:Journal ;
+    rdfs:label "INTERNATIONAL JOURNAL OF PSYCHIATRY IN MEDICINE" ;
+    ns2:identifier "47113J" ;
+    ns1:eissn "1541-3527" ;
+    ns1:issn "0091-2174" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15766428> .
+
+<http://example.org/data/journals/49060J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF AGRICULTURAL SCIENCE" ;
+    ns2:identifier "49060J" ;
+    ns1:eissn "1469-5146" ;
+    ns1:issn "0021-8596" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q3931449> .
+
+<http://example.org/data/journals/50908J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF THE AUDIO ENGINEERING SOCIETY" ;
+    ns2:identifier "50908J" ;
+    ns1:eissn "1549-4950" ;
+    ns1:issn "1549-4950" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2221048> .
+
+<http://example.org/data/journals/54692J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF GENERAL AND APPLIED MICROBIOLOGY" ;
+    ns2:identifier "54692J" ;
+    ns1:eissn "1349-8037" ;
+    ns1:issn "0022-1260" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15763921> .
+
+<http://example.org/data/journals/55210J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF HEALTH POLITICS POLICY AND LAW" ;
+    ns2:identifier "55210J" ;
+    ns1:issn "0361-6878" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15758994> .
+
+<http://example.org/data/journals/58036J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF NATURAL HISTORY" ;
+    ns2:identifier "58036J" ;
+    ns1:eissn "1464-5262" ;
+    ns1:issn "0022-2933" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1937345> .
+
+<http://example.org/data/journals/60577J> a ns1:Journal ;
+    rdfs:label "JOURNAL OF QUALITY TECHNOLOGY" ;
+    ns2:identifier "60577J" ;
+    ns1:eissn "0022-4065" ;
+    ns1:issn "0022-4065" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15749619> .
+
+<http://example.org/data/journals/65582J> a ns1:Journal ;
+    rdfs:label "MAGYAR ALLATORVOSOK LAPJA" ;
+    ns2:identifier "65582J" ;
+    ns1:issn "0025-004X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15758003> .
+
+<http://example.org/data/journals/69498J> a ns1:Journal ;
+    rdfs:label "MOLECULAR CRYSTALS AND LIQUID CRYSTALS" ;
+    ns2:identifier "69498J" ;
+    ns1:eissn "1563-5287" ;
+    ns1:issn "1542-1406" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15754505> .
+
+<http://example.org/data/journals/69887J> a ns1:Journal ;
+    rdfs:label "MONATSSCHRIFT KINDERHEILKUNDE" ;
+    ns2:identifier "69887J" ;
+    ns1:eissn "1433-0474" ;
+    ns1:issn "0026-9298" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1762971> .
+
+<http://example.org/data/journals/76376J> a ns1:Journal ;
+    rdfs:label "PHYSICAL REVIEW C" ;
+    ns2:identifier "76376J" ;
+    ns1:eissn "1089-490X" ;
+    ns1:issn "0556-2813" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2779854> .
+
+<http://example.org/data/journals/76780J> a ns1:Journal ;
+    rdfs:label "PHYSIOLOGICAL REVIEWS" ;
+    ns2:identifier "76780J" ;
+    ns1:eissn "1522-1210" ;
+    ns1:issn "0031-9333" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1091827> .
+
+<http://example.org/data/journals/78848J> a ns1:Journal ;
+    rdfs:label "PROCEEDINGS OF THE EDINBURGH MATHEMATICAL SOCIETY" ;
+    ns2:identifier "78848J" ;
+    ns1:eissn "1464-3839" ;
+    ns1:issn "0013-0915" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15492536> .
+
+<http://example.org/data/journals/81642J> a ns1:Journal ;
+    rdfs:label "PSYCHOPHARMACOLOGY" ;
+    ns2:identifier "81642J" ;
+    ns1:eissn "1432-2072" ;
+    ns1:issn "0033-3158" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1422802> .
+
+<http://example.org/data/journals/84453J> a ns1:Journal ;
+    rdfs:label "REVISTA DE CHIMIE" ;
+    ns2:identifier "84453J" ;
+    ns1:eissn "0034-7752" ;
+    ns1:issn "0034-7752" .
+
+<http://example.org/data/journals/C1111J> a ns1:Journal ;
+    rdfs:label "ECOLOGICAL INDICATORS" ;
+    ns2:identifier "C1111J" ;
+    ns1:eissn "1872-7034" ;
+    ns1:issn "1470-160X" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1282041> .
+
+<http://example.org/data/journals/C2626J> a ns1:Journal ;
+    rdfs:label "VIROLOGICA SINICA" ;
+    ns2:identifier "C2626J" ;
+    ns1:eissn "1995-820X" ;
+    ns1:issn "1674-0769" .
+
+<http://example.org/data/journals/C2855J> a ns1:Journal ;
+    rdfs:label "NUTRITION IN CLINICAL PRACTICE" ;
+    ns2:identifier "C2855J" ;
+    ns1:eissn "1941-2452" ;
+    ns1:issn "0884-5336" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q7070513> .
+
+<http://example.org/data/journals/C6032J> a ns1:Journal ;
+    rdfs:label "Revista Mexicana de Biodiversidad" ;
+    ns2:identifier "C6032J" ;
+    ns1:issn "1870-3453" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q21385872> .
+
+<http://example.org/data/journals/C6231J> a ns1:Journal ;
+    rdfs:label "PLoS Genetics" ;
+    ns2:identifier "C6231J" ;
+    ns1:eissn "1553-7404" ;
+    ns1:issn "1553-7404" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1893441> .
+
+<http://example.org/data/journals/C6419J> a ns1:Journal ;
+    rdfs:label "Petrophysics" ;
+    ns2:identifier "C6419J" ;
+    ns1:issn "1529-9074" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15751718> .
+
+<http://example.org/data/journals/C6567J> a ns1:Journal ;
+    rdfs:label "Nurse Educator" ;
+    ns2:identifier "C6567J" ;
+    ns1:eissn "1538-9855" ;
+    ns1:issn "0363-3624" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15766988> .
+
+<http://example.org/data/journals/C6572J> a ns1:Journal ;
+    rdfs:label "Biotechnology Journal" ;
+    ns2:identifier "C6572J" ;
+    ns1:eissn "1860-7314" ;
+    ns1:issn "1860-6768" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15716480> .
+
+<http://example.org/data/journals/C6674J> a ns1:Journal ;
+    rdfs:label "Communications in Computational Physics" ;
+    ns2:identifier "C6674J" ;
+    ns1:eissn "1991-7120" ;
+    ns1:issn "1815-2406" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q1809704> .
+
+<http://example.org/data/journals/C6821J> a ns1:Journal ;
+    rdfs:label "Maternal and Child Nutrition" ;
+    ns2:identifier "C6821J" ;
+    ns1:eissn "1740-8709" ;
+    ns1:issn "1740-8695" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15756374> .
+
+<http://example.org/data/journals/C6958J> a ns1:Journal ;
+    rdfs:label "Asia-Pacific Journal of Public Health" ;
+    ns2:identifier "C6958J" ;
+    ns1:eissn "1941-2479" ;
+    ns1:issn "1010-5395" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q4806254> .
+
+<http://example.org/data/journals/C6961J> a ns1:Journal ;
+    rdfs:label "Current Bioinformatics" ;
+    ns2:identifier "C6961J" ;
+    ns1:eissn "2212-392X" ;
+    ns1:issn "1574-8936" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15745417> .
+
+<http://example.org/data/journals/C7079J> a ns1:Journal ;
+    rdfs:label "Water Policy" ;
+    ns2:identifier "C7079J" ;
+    ns1:eissn "1366-7017" ;
+    ns1:issn "1366-7017" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15761055> .
+
+<http://example.org/data/journals/C7251J> a ns1:Journal ;
+    rdfs:label "Acta Cardiologica Sinica" ;
+    ns2:identifier "C7251J" ;
+    ns1:issn "1011-6842" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2366246> .
+
+<http://example.org/data/journals/C7763J> a ns1:Journal ;
+    rdfs:label "Petroleum Science" ;
+    ns2:identifier "C7763J" ;
+    ns1:eissn "1995-8226" ;
+    ns1:issn "1672-5107" .
+
+<http://example.org/data/journals/C7983J> a ns1:Journal ;
+    rdfs:label "Gradevinar" ;
+    ns2:identifier "C7983J" ;
+    ns1:eissn "1333-9095" ;
+    ns1:issn "0350-2465" .
+
+<http://example.org/data/journals/C8084J> a ns1:Journal ;
+    rdfs:label "Diving and Hyperbaric Medicine" ;
+    ns2:identifier "C8084J" ;
+    ns1:eissn "1833-3516" ;
+    ns1:issn "1833-3516" .
+
+<http://example.org/data/journals/C8514J> a ns1:Journal ;
+    rdfs:label "Informatics for Health & Social Care" ;
+    ns2:identifier "C8514J" ;
+    ns1:eissn "1753-8165" ;
+    ns1:issn "1753-8157" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15762121> .
+
+<http://example.org/data/journals/C8526J> a ns1:Journal ;
+    rdfs:label "Journal of Computational and Nonlinear Dynamics" ;
+    ns2:identifier "C8526J" ;
+    ns1:eissn "1555-1415" ;
+    ns1:issn "1555-1423" .
+
+<http://example.org/data/journals/C8536J> a ns1:Journal ;
+    rdfs:label "Anadolu Psikiyatri Dergisi-Anatolian Journal of Psychiatry" ;
+    ns2:identifier "C8536J" ;
+    ns1:eissn "1302-6631" ;
+    ns1:issn "1302-6631" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15750857> .
+
+<http://example.org/data/journals/C8677J> a ns1:Journal ;
+    rdfs:label "Mucosal Immunology" ;
+    ns2:identifier "C8677J" ;
+    ns1:eissn "1935-3456" ;
+    ns1:issn "1933-0219" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15817743> .
+
+<http://example.org/data/journals/C8785J> a ns1:Journal ;
+    rdfs:label "Radiophysics and Quantum Electronics" ;
+    ns2:identifier "C8785J" ;
+    ns1:eissn "1573-9120" ;
+    ns1:issn "0033-8443" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q2384706> .
+
+<http://example.org/data/journals/C8824J> a ns1:Journal ;
+    rdfs:label "Diabetes & Vascular Disease Research" ;
+    ns2:identifier "C8824J" ;
+    ns1:eissn "1752-8984" ;
+    ns1:issn "1479-1641" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q5270121> .
+
+<http://example.org/data/journals/C9673J> a ns1:Journal ;
+    rdfs:label "BMC Medical Genomics" ;
+    ns2:identifier "C9673J" ;
+    ns1:issn "1755-8794" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15754662> .
+
+<http://example.org/data/journals/C9677J> a ns1:Journal ;
+    rdfs:label "Functional Materials Letters" ;
+    ns2:identifier "C9677J" ;
+    ns1:eissn "1793-7213" ;
+    ns1:issn "1793-6047" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q5508788> .
+
+<http://example.org/data/journals/D0267J> a ns1:Journal ;
+    rdfs:label "Scandinavian Journal of Trauma Resuscitation & Emergency Medicine" ;
+    ns2:identifier "D0267J" ;
+    ns1:issn "1757-7241" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15766278> .
+
+<http://example.org/data/journals/D0294J> a ns1:Journal ;
+    rdfs:label "Food Security" ;
+    ns2:identifier "D0294J" ;
+    ns1:eissn "1876-4525" ;
+    ns1:issn "1876-4517" .
+
+<http://example.org/data/journals/D1097J> a ns1:Journal ;
+    rdfs:label "International Journal of Shoulder Surgery" ;
+    ns2:identifier "D1097J" ;
+    ns1:eissn "0973-6042" ;
+    ns1:issn "0973-6042" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6051575> .
+
+<http://example.org/data/journals/D1103J> a ns1:Journal ;
+    rdfs:label "Biomedical Engineering-Biomedizinische Technik" ;
+    ns2:identifier "D1103J" ;
+    ns1:eissn "1862-278X" ;
+    ns1:issn "0013-5585" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q15749128> .
+
+<http://example.org/data/journals/D1565J> a ns1:Journal ;
+    rdfs:label "MRS Communications" ;
+    ns2:identifier "D1565J" ;
+    ns1:eissn "2159-6867" ;
+    ns1:issn "2159-6859" .
+
+<http://example.org/data/journals/D2659J> a ns1:Journal ;
+    rdfs:label "Journal of Biomedical Semantics" ;
+    ns2:identifier "D2659J" ;
+    ns1:eissn "2041-1480" ;
+    ns1:issn "2041-1480" ;
+    ns3:sameAs <http://www.wikidata.org/entity/Q6294854> .
+

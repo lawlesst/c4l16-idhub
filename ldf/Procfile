@@ -1,0 +1,1 @@
+web: ldf-server config.json $PORT
