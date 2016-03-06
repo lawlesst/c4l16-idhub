@@ -54,7 +54,7 @@ def main():
                 continue
             g += jrnl.to_rdf()
 
-    g.serialize(destination=sys.argv[2], format="turtle")
+    g.serialize(destination=sys.argv[2], format="nt")
 
 if __name__ == "__main__":
     main()
