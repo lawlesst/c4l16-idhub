@@ -16,8 +16,8 @@ The process directory contains:
 
 Running the LDF Server requires nodejs and npm. To run first install the dependencies:
 
-`$ cd ldf`
-`$ npm install`
+* `$ cd ldf`
+* `$ npm install`
 
 To start the server run:
 
