@@ -1,16 +1,16 @@
 
 ## Overview
 
-Processing code and examples for Code4Lib 2016 presentation, "[Build Your Own Identity Hub](http://2016.code4lib.org/Build-your-own-identity-hub)".
+Processing code and examples for a Code4Lib 2016 presentation, "[Build Your Own Identity Hub](http://2016.code4lib.org/Build-your-own-identity-hub)".
 
 
 ### process
 
 The process directory contains:
 
-* `get_wikidata_issns.py` - retrieves all ISSNs from Wikidata and builds a local index
-* `match_to_wd.py` - matches the local data in `data\journals.csv` to Wikidata.
-* `to_rdf.py` - converts the matched data in `data\journals_matched.csv` to a basic RDF model.
+* `get_wikidata_issns.py` - retrieves all ISSNs from Wikidata and builds a local index of issn -> wikidata id. 
+* `match_to_wd.py` - matches the local data in `data/journals.csv` to Wikidata.
+* `to_rdf.py` - converts the matched data in `data/journals_matched.csv` to a basic RDF model.
 
 ### ldf
 
@@ -27,3 +27,4 @@ View the `config.json` file to see how the LDF server reads your triple file.
 
 A `Procfile` is included that will allow you to run the server on Heroku.
 
+Please see more information about Linked Data Fragments and the software at: [http://linkeddatafragments.org/](http://linkeddatafragments.org/).
